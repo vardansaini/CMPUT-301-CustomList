@@ -22,7 +22,7 @@ public class CustomListTest {
         assertEquals(listSize + 1, list.getCount());
     }
 
-    /*@Test
+    @Test
     public void hasCityTest(){
         City city = new City("Halifax", "NS");
         list.addCity(city);
@@ -30,7 +30,7 @@ public class CustomListTest {
         assertEquals(true, has);
     }
 
-    @Test
+    /*@Test
     public void deleteTest(){
         City city = new City("Halifax", "NS");
         list.addCity(city);
