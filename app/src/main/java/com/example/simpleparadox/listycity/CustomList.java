@@ -60,15 +60,15 @@ public class CustomList extends ArrayAdapter<City> {
         return cities.contains(city);
     }
 
-    /*public void delete(City city){
+    public void delete(City city){
         if (cities.contains(city)){
-            cities.remove(city);
+            return;
         }else{
             throw new IllegalArgumentException();
         }
     }
 
-    public int countCities(){
+    /*public int countCities(){
         return cities.size();
     }*/
 }
